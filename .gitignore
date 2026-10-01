@@ -1,0 +1,26 @@
+# 설치된 패키지와 로컬 실행 캐시
+/node_modules/
+/.sites-runtime/
+/.pnpm-store/
+
+# 빌드 결과와 개발 도구 캐시
+/dist/
+/.next/
+/.vinext/
+/out/
+/.wrangler/
+/coverage/
+*.tsbuildinfo
+
+# 환경변수와 비밀값
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# 로그와 운영체제 파일
+*.log
+.DS_Store
+Thumbs.db
